@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link rel="shortcut icon" href="form.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form action="post.html" method="post" enctype="application/x-www-form-urlencoded">
+<fieldset>
+<legend id="leg" align='center' title="Introduce your personal data">Registration</legend>
+<label class="label">Email:
+<input type="email" name="mail" placeholder="example@mail.com" size="25em"><br>
+</label>
+<label class="label">Login:
+<input type="text" name="login" placeholder="John1488" size="25em"><br>
+</label>
+<label class="label">Password:
+<input type="password" name="pass"><br>
+</label><br>
+<label class="label">Gender<br>
+<input type="radio" name="gen" class="rad">Male<br>
+<input type="radio" name="gen" class="rad">Female<br>
+<input type="radio" name="gen" class="rad">Unicorn<br>
+</label><br>
+<label  class="label">Choose your country:
+<select>
+<option>Republic of Moldova</option>
+<option>Romania</option>
+<option>Russia</option>
+<option>Hungary</option>
+<option>Austria</option>
+<option>Bulgary</option>
+<option>Turkey</option>
+<option>France</option>
+<option>United Kingdom</option>
+<option>Australia</option>
+<option>USA</option>
+<option>China</option>
+<option>Japan</option>
+</select>
+</label><br>
+<br>
+<input type="checkbox" name="check" required id="check"><span class="label">I have read terms of usuing and policy of RSY(Inc)</span>
+<a id="link" href="Пользовательское соглашение RSY(Inc).odt" download>Terms of usuing and policy of RSY(Inc)</a><br>
+<input id="but" type="submit" name="button" value="Register">
+</fieldset>
+</form>
+</body>
+</html>

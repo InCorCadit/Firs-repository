@@ -1,0 +1,41 @@
+body {
+  background-color: #ADFF2F;
+  color:#006400;
+}
+
+#leg {
+  font-size: 30px; 
+  font-family:monospace;
+}
+
+.label {
+  font-size:17px;
+  font-family: cursive;
+}
+
+.rad {
+  transform:scale(1.3);
+  opacity:0.9;
+  cursor:pointer;
+}
+
+#link {
+  font-size: 16px;
+  font-family: cursive;
+  margin-left: 580px;
+  text-decoration: none;
+  color:green;
+}
+
+#check {
+  transform:scale(1.3);
+  opacity:0.9;
+  cursor:pointer;
+}
+
+#but {
+  font-size: 16px;
+  margin-top: 13px;
+  font-family: cursive;
+  color:green;
+}
